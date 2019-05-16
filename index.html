@@ -5,9 +5,45 @@
     <script src="game.js" charset="utf-8"></script>
     <title></title>
   </head>
+  <style>
+
+    .grid{
+      display: grid;
+      grid-template: 300px / 40% 40%;
+    }
+
+.grid section:nth-child(1){
+  background: whitesmoke;
+}
+
+.grid section:nth-child(2){
+  background: lightblue;
+}
+
+  </style>
   <body>
     <h1>Social Media </h1>
     <p>Join Million of addicted children on this platform!</p>
+
+    <div class="grid">
+<section>
+  <form class="" action="#" method="post" id='user1-form'>
+    <label for="">Enter a message</label><br />
+    <textarea name="name" rows="8" cols="25" id='msg-content'></textarea>
+    <br>
+    <input type="submit" name="" value="Send Message" id='user1-send-btn'>
+  </form>
+</section>
+<section>
+  Right
+<div id='user2-inbox'>
+
+</div>
+</section>
+
+
+
+    </div>
 <script src="socialMedia.js" charset="utf-8"></script>
   </body>
 </html>
